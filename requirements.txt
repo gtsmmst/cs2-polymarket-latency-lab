@@ -1,0 +1,10 @@
+# Feeds
+websockets>=12.0          # Polymarket CLOB WS (watchers/poly_ws_watcher, watchers/polymarket_feed)
+websocket-client>=1.6     # PandaScore live socket (watchers/panda_cs2_watcher --ws)
+requests>=2.31            # PandaScore REST
+httpx>=0.27.0             # bo3.gg poller, Gamma API lookups (scripts/find_market)
+aiohttp>=3.9.0            # Gamma API lookups inside scripts/latency_lab
+
+# Dashboards
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
