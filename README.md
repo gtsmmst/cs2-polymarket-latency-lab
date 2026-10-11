@@ -1,5 +1,7 @@
 # cs2-polymarket-latency-lab
 
+[![tests](https://github.com/gtsmmst/cs2-polymarket-latency-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/gtsmmst/cs2-polymarket-latency-lab/actions/workflows/tests.yml)
+
 A small measurement rig for one question: **how early do CS2 match events (round ends,
 map ends, bomb plants) reach Polymarket prices compared with the feeds I can get my hands
 on?**
